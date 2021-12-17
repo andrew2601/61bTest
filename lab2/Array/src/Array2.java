@@ -1,9 +1,11 @@
 public class Array2 {
     public static int max(int[] m) {
         int max = 0;
-        for (int i = 0; i < m.length; i= i+1){
-            if (max < m[i]);
-            max = m[i];
+        int i = 0;
+        while (i <= m.length){
+            if (max < m[i])
+                max = m[i];
+
         }
         return max;
     }
